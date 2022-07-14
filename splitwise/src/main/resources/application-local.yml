@@ -1,0 +1,15 @@
+spring:
+  profiles: local
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/splitwise
+    username: root
+    password: 1234
+
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+server:
+  port: 8080
